@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Project</title>
+    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="logo">
+    <i class="fa-solid fa-building-columns" id="logo"></i>
+    <span id="bname">Welcome To Royal Bharat Bank</span>
+    </div>
+    <div class="main_container">
+      <div id="success">
+       <p></p>
+      </div>
+
+       
+        <form action="/sample">
+      
+       
+        <!--for resiters-->
+          <div class="register">
+           
+            <h2>Create Your Account Or Login</h2>
+         
+            <div class="common">
+            <label for="text"></label>
+            <input
+              type="text"
+              placeholder="Enter First Name"
+              id="text"
+              required="true"
+             
+            />
+             <i class="fa-solid fa-user" class="user"></i>
+            <div class="line"></div>
+          
+            <label for="last"></label>
+            <input type="text" placeholder="Enter Last Name" id="last" required="true">
+             <div class="line"></div>
+          
+          </div>
+
+          <div class="common">
+            <label for="pass"></label>
+            <input
+              type="password"
+              placeholder="create your password"
+              id="pass"
+              required="true"
+            />
+            <i class="fa-solid fa-user-lock" class="user"></i>
+             <div class="line"></div>
+          
+          
+             <label for="verify"></label>
+            <input
+              type="password"
+              placeholder="Confirm password"
+              id="verify"
+              required="true"
+            />
+             <div class="line"></div>
+          
+          
+          </div>
+         
+
+        
+          <div class="common">
+            <label for="mob"></label>
+            <input
+              type="tel"
+              maxlength="10"
+              placeholder="Enter Mobile Number"
+              id="mob"
+              required="true"
+            />
+            <i class="fa-solid fa-circle-user" class="user"></i>
+          <div class="line"></div>
+          
+              <label for="adhar"></label>
+            <input
+              type="tel"
+              maxlength="12"
+              placeholder="Enter Aadhar No."
+              id="adhar"
+              required="true"
+            />
+           <div class="line"></div>
+          
+          </div>
+
+    
+          <div class="common">
+            <label for="email"></label>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              id="email"
+              required="true"
+            />
+           <i class="fa-regular fa-envelope" class="user"></i>
+             <div class="line"></div>
+          
+          
+          </div>
+          <div class="btn">
+
+          <button class="btncoll" id="reg">Regiter</button>
+          <button class="btncoll" id="logi">Login</button>
+          </div>
+
+         </div>  
+        <!--resitration end -->
+
+        <!--Login container start-->
+        <div class="login">
+
+            <div class="common">
+            <label for="text1"></label>
+            <input
+              type="text"
+              placeholder="Enter First Name"
+              id="text1"
+              required="true"
+             
+            />
+             <i class="fa-solid fa-user" class="user"></i>
+            <div class="line"></div>
+
+
+          <div class="common">
+          <label for="logi2"></label>
+          <input type="email" placeholder="Enter Email"  id="logi2" name="loged">
+           <i class="fa-regular fa-envelope" class="user"></i>
+          <div class="line"></div>
+          </div>
+
+          <div class="common">
+
+          <label for="pass1"></label>
+          <input type="password"  placeholder="Enter password " id="pass1">
+           <i class="fa-solid fa-user-lock" class="user"></i>
+           <div class="line"></div>
+           </div>
+           <button class="btncoll" id="logi1">Login</button>
+        </div>
+
+        <!--Login container end-->
+       </form>
+    
+  </div>  
+</div>
+
+
+  <!-- bank working-->
+
+  <div class="bank_info">
+
+    <div class="User_Info" id="getData" type="button">Account Details
+       <i class="fa-regular fa-circle-user"></i>
+    </div>
+  
+    <div class="User_Info" id="credit" type="button">Withdraw
+      <i class="fa-solid fa-money-bill-transfer"></i>
+     
+    </div>
+
+    <div class="User_Info" id="debit" type="button">Deposit Money
+     
+     <i class="fa-solid fa-piggy-bank"></i>
+    </div>
+    <div class="User_Info" id="update" type="button">Udtate Information
+      <i class="fa-solid fa-arrows-rotate"></i>
+    </div>
+
+    <div class="User_Info" id="transfer" type="button">Transfer Money
+      <i class="fa-solid fa-arrow-right-arrow-left"></i>
+    </div>
+
+
+    <div class="User_Info" id="balance" type="button">Balance
+        <i class="fa-solid fa-coins" class="icon"></i>
+        <div id="eye">
+          <span id="rupi">XXXXX</span>
+          <i class="fa-regular fa-eye-slash" id="eye1"></i>
+        <i class="fa-regular fa-eye" id="eye2"></i>
+        </div>
+    </div>
+  </div>
+
+  <!--page transfer-->
+
+  <div class="page_transfer">
+  <div class="page">
+    <div class="page1">
+    <ul>
+      <li>Name : <span id="spn">Jeet lal</span></li>
+      <li>Account No. <span id="spn1">264376437667</span></li>
+      <li>Gmail : <span id="spn2">jay@gmail.com</span></li>
+      <li>Mobile : <span id="spn3">7547546521</span></li>
+    </ul>
+    <button id="back1" class="back">Back</button>
+    </div>
+   
+    <div class="page2">
+      <input id="Honame" type="text" placeholder="Accounter Holder Name" required="true">
+      <input id="Eac" type="text" maxlength="14" pattern="[0-9]{10,12}" placeholder="Enter Account Number">
+      <input id="Eb" type="text" maxlength="10" pattern="[0-9]{10,12}" placeholder="Enter Ammount">
+      <button class="depowith" id="depo1">Deposit</button>
+       <button id="back2" class="back">Back</button>
+    </div>
+
+     <div class="page3">
+       <input id="Honame1" type="text" placeholder="Accounter holder Name" required="true">
+      <input id="Eac1" type="text" maxlength="14" pattern="[0-9]{10,12}" placeholder="Enter Account Number">
+      <input id="Eb1" type="text" maxlength="10" pattern="[0-9]{10,12}" placeholder="Enter Ammount">
+      <button class="depowith" id="with1">Withdraw</button>
+       <button id="back3" class="back">Back</button>
+    </div>
+
+     <div class="page4">
+      <input type="text" maxlength="14" pattern="[0-9]{10,12}" placeholder="Enter Account Number And Withdraw">
+      <input type="text" maxlength="10" pattern="[0-9]{10,12}" placeholder="Enter Ammount">
+      <button class="depowith" id="trans1">Transfer</button>
+       <button id="back4" class="back">Back</button>
+    </div>
+
+
+    </div>
+
+  </div>
+  
+   <script src="script.js"></script>
+  </body>
+</html>
